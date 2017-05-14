@@ -1,0 +1,6 @@
+<h1><%= "All articles et je te laisse trouver ce titre dans le code pour le corriger !!" %></h1>
+
+<% @articles.each do |article| %>
+  <h2><%= article.title %></h2>
+  <p><%= article.url %></p>
+<% end %>
