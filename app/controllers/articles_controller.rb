@@ -15,3 +15,5 @@ class ArticlesController < ApplicationController
   def destroy
   end
 end
+
+
